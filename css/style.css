@@ -309,7 +309,11 @@ body {
   display: inline-block;
   background-color: #201ced;
   -webkit-box-shadow: 0 0 5px 5px #4f6a75;
-  box-shadow: 0 0 5px 5px #4f6a75; }
+  box-shadow: 0 0 5px 5px #4f6a75;
+  width: 120px;
+  position: relative; }
+  .body__order__order:active {
+    top: 1px; }
 
 .delete {
   display: none; }
